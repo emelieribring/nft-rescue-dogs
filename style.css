@@ -1,0 +1,312 @@
+body{
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    scroll-behavior: smooth;
+}
+
+#background{
+    background-image: url(/Pics/bakgrundrescue.png);
+    position: fixed;
+    width: 1000px;
+    height: 643px;
+    left: 349px;
+}
+
+#backgroundDogs{
+    background-image: url(/Pics/dogbackground.dogsite.png);
+    background-size: cover;
+    position: fixed;
+    width: 400px;
+    height: 600px;
+    top: 35px;
+    left: 910px;
+}
+
+
+#backgroundOne{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* width: 1349px;
+    height: 643px; */
+    z-index: -1;
+    display: flex;
+}   
+
+#namePres{
+    color: blanchedalmond;
+    position: absolute;
+    font-family: Dancing Script;
+    font-size: 50px;
+    top: 100px;
+    left: 150px;
+}
+
+#imgPres{
+    position: relative;
+    border: solid 1px #fff;
+    top: 200px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+/* #backgroundFirstDogSide{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    width: 1349px;
+    height: 643px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}   */
+
+#aboutDogs{
+    position: relative;
+    display: flex;
+    font-family: Mynerve;
+    color: blanchedalmond;
+    flex-direction: column;
+    width: 900px;
+    height: 250px;
+    margin: 20px;
+    top: 70px;
+    left: 100px;
+}
+
+/* #backgroundOneDogSide{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    width: 1349px;
+    height: 643px;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+}     */
+
+/* #backgroundTwoDogSide{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    width: 1349px;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+} */
+
+#welcome{
+    font-size: 60px;
+    font-family: Dancing Script;
+    color: blanchedalmond;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#frontText{
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Mynerve;
+    position: absolute;
+    top: 190px;
+    left: 80px;
+}
+
+#textHelp{
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Mynerve;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.dogs{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    top: 390px;
+    margin: 20px;
+}
+
+
+#dogsNameDiv{
+    display: flex;
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 580px;
+    left: 40px;
+    justify-content: space-between;
+}
+
+.dogsName{
+    align-self: center;
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+    font-size: 15px;
+    color: blanchedalmond;
+}
+
+#backgroundTwo{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    width: 1349px;
+    height: 643px;
+    display: flex;
+    z-index: -1;
+}
+
+#halfSide{
+    position: absolute;
+    background-color: rgb(33, 33, 44);
+    align-self: center;
+    width: 1000px;
+    height: 300px;
+}
+
+#aboutNFTRescue{
+    position: relative;
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: Dancing Script;
+    left: 40px;
+}
+
+#aboutNFT{
+    position: relative;
+    color: blanchedalmond;
+    font-size: 15px;
+    left: 20px;
+}
+
+#run1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 300px;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+#run2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 320px;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+#run3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 340px;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+#navbar{
+    width: 65vw;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+#navbarDogSide{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+#frontName{
+    color: blanchedalmond;
+    font-size: 30px;
+    align-self: center;
+    position: relative;
+    left: 20px;
+}
+
+.link{
+    align-self: center;
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+    left: 150px;
+    font-size: 15px;
+    color: blanchedalmond;
+}
+
+.link:hover{
+    font-size: 25px;
+}
+
+#dogPresFirstLine{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 250px;
+    top: 70px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+#dogPresSecondLine{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    top: 50px;
+}
+
+.dogPres{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    background-color: blanchedalmond;
+}
+
+.dogPic{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+
+#name{
+    margin: 10px;
+    margin-left: 20px;
+    font-family: Mynerve;
+    text-decoration: none;
+    color: black;
+}
+
+#name:hover{
+    font-size: 25px;
+}
+
+#btnBack{
+    position: absolute;
+    border: none;
+    background-color:  rgb(22, 22, 22);
+    color: #fff;
+    font-size: 15px;
+    top: 80px;
+    left: 20px;
+    height: 30px;
+}
+
+#btnBack:hover{
+    font-size: 25px;
+}
