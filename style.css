@@ -5,7 +5,7 @@ body{
 }
 
 #background{
-    background-image: url(/Pics/bakgrundrescue.png);
+    background-image: url(./Pics/bakgrundrescue.png);
     background-size: contain;
     position: fixed;
     left: 25vw;
