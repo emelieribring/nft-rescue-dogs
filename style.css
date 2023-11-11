@@ -6,10 +6,11 @@ body{
 
 #background{
     background-image: url(/Pics/bakgrundrescue.png);
+    background-size: contain;
     position: fixed;
-    width: 1000px;
-    height: 643px;
-    left: 349px;
+    left: 25vw;
+    width: 100vw;
+    height: 100vh;
 }
 
 #backgroundDogs{
@@ -26,7 +27,7 @@ body{
 #backgroundOne{
     background-color: rgb(22, 22, 22);
     position: relative;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     /* width: 1349px;
     height: 643px; */
